@@ -22,19 +22,6 @@ const addToCalendar = (meetingDetails) => {
   return Promise.resolve(calendar);
 };
 
-// meeting
-//   .then(addToCalendar)
-//   .then((res) => {
-//     // resolved data
-//     console.log(res);
-//   })
-//   .catch((err) => {
-//     // rejected data
-//     console.log(err.message);
-//   });
-
-// console.log("Hello");
-
 async function myMeeting() {
   try {
     const meetingDetails = await meeting;
